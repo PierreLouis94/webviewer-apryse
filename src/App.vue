@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <WebViever initialDoc="https://pdftron.s3.amazonaws.com/downloads/pl/demo-annotated.pdf"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WebViever from './components/WebViever.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WebViever
   }
 }
 </script>
